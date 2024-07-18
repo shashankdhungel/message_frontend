@@ -6,6 +6,7 @@ import ChatRoom from "./Components/ChatRoom";
 import Home from "./Components/Home";
 import NumberSumUp from "./Components/NumberSumUp";
 import Login from "./Components/Login";
+import CreateChatroom from './Components/CreateChatroom';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/chatroom" element ={<ChatRoom/>}/>
           <Route path="/sumupnum" element ={<NumberSumUp/>}/>
           <Route path="/login" element={<Login/>}/>
+          <Route path='/create_chatroom' element={<CreateChatroom/>} />
 
       </Routes>
     </div>

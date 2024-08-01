@@ -4,7 +4,6 @@ import TopBar from "./Components/TopBar";
 import {Route, Routes} from "react-router";
 import ChatRoom from "./Components/ChatRoom";
 import Home from "./Components/Home";
-import NumberSumUp from "./Components/NumberSumUp";
 import Login from "./Components/Login";
 import CreateChatroom from './Components/CreateChatroom';
 
@@ -15,7 +14,6 @@ function App() {
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/chatroom" element ={<ChatRoom/>}/>
-          <Route path="/sumupnum" element ={<NumberSumUp/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path='/create_chatroom' element={<CreateChatroom/>} />
 

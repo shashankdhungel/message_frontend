@@ -5,6 +5,7 @@ function Home(props) {
         <div>
             <h1>Message App</h1>
             <h2>Home page</h2>
+            <h3>Hello World</h3>
         </div>
     );
 }
